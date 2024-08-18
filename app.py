@@ -33,7 +33,7 @@ genai.configure(api_key=os.getenv('GENAI_API_KEY'))
 
 # Configuración de constantes globales
 GENERATION_CONFIG = {
-    "temperature": 0.2,
+    "temperature": 0.1,
     "top_p": 0.95,
     "top_k": 64,
     "max_output_tokens": 8000,
@@ -141,7 +141,7 @@ async def generate_and_combine_audio_files(df_interview, output_dir, base_name):
             combined += audio
 
     combined_file_path = output_dir / f"{base_name}.mp3"
-    combined.export(combined_file_path, format="mp3", bitrate="128k")
+    combined.export(combined_file_path, format="mp3", bitrate="256k")
     logging.info(f"Archivo de audio combinado guardado en {combined_file_path}")
 
     return combined_file_path
