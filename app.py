@@ -36,7 +36,7 @@ GENERATION_CONFIG = {
     "temperature": 0.1,
     "top_p": 0.95,
     "top_k": 64,
-    "max_output_tokens": 8000,
+    "max_output_tokens": 15000,
     "response_mime_type": "application/json",
 }
 MODEL_NAME = "gemini-1.5-flash"
