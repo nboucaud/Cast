@@ -271,7 +271,7 @@ css = """
 
 with gr.Blocks(css=css) as demo:
     # Centrar el título y la descripción con CSS
-    gr.Markdown("# Doc-To-Interview Generator", elem_id="title")
+    gr.Markdown("# Doc-To-Dialogue", elem_id="title")
     gr.Markdown(
         "Turn your documents—whether market or research reports, user guides, manuals, or others—into an engaging interview or discussion where the most relevant insights are summarized. Just upload a PDF and let us generate the final audio for you.<br><br>If you have any questions or encounter any issues, don't hesitate to contact me directly [here](https://www.linkedin.com/in/psanchezal/).", 
         elem_id="description"
