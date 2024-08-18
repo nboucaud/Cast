@@ -1,0 +1,6 @@
+openai
+google-generativeai
+gradio>=3.16.0
+pandas
+pydub
+soundfile
