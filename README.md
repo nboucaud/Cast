@@ -1,5 +1,5 @@
 ---
-title: Doc To Interview Generator
+title: Doc To Dialogue
 emoji: 👀
 colorFrom: yellow
 colorTo: red
