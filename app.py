@@ -217,25 +217,25 @@ def gradio_interface(pdf_file, language):
 # Ejemplos preconfigurados para la sección Examples
 example_data = [
     {
-        "report_name": "<a href='https://huggingface.co/spaces/peter020202/Doc-To-Interview-Generator/blob/main/Example/MckinseyTrends2024.pdf'>Mckinsey Trends 2024 <br><br>[Report in English - Interview in English]</a>",
+        "report_name": "<a href='https://huggingface.co/spaces/AIPeterWorld/Doc-To-Interview-Generator/blob/main/Example/MckinseyTrends2024.pdf'>Mckinsey Trends 2024 <br><br>[Report in English - Interview in English]</a>",
         "image": "Example/MckinseyTrends2024.png",
         "interview": "Example/McKinsey_en.mp3",
         "report_pdf": "Example/MckinseyTrends2024.pdf",
     },
     {
-        "report_name": "<a href='https://huggingface.co/spaces/peter020202/Doc-To-Interview-Generator/blob/main/Example/h2ogpt.pdf'>h2oGPT: Democratizing Large Language Models <br><br>[Report in English - Interview in Spanish]</a>",
+        "report_name": "<a href='https://huggingface.co/spaces/AIPeterWorld/Doc-To-Interview-Generator/blob/main/Example/h2ogpt.pdf'>h2oGPT: Democratizing Large Language Models <br><br>[Report in English - Interview in Spanish]</a>",
         "image": "Example/h2ogpt.png",
         "interview": "Example/h2ogpt.mp3",
         "report_pdf": "Example/h2ogpt.pdf",
     },
     {
-        "report_name": "<a href='https://huggingface.co/spaces/peter020202/Doc-To-Interview-Generator/blob/main/Example/RealEstateOutlookMS.pdf'>Real Estate Outlook 2024 Morgan Stanley <br><br>[Report in English - Interview in English]</a>",
+        "report_name": "<a href='https://huggingface.co/spaces/AIPeterWorld/Doc-To-Interview-Generator/blob/main/Example/RealEstateOutlookMS.pdf'>Real Estate Outlook 2024 Morgan Stanley <br><br>[Report in English - Interview in English]</a>",
         "image": "Example/RealEstateOutlookMS.png",
         "interview": "Example/RealEstateOutlookMS.mp3",
         "report_pdf": "Example/RealEstateOutlookMS.pdf",
     },
     {
-        "report_name": "<a href='https://huggingface.co/spaces/peter020202/Doc-To-Interview-Generator/blob/main/Example/ManualPatrimonio2023_es_es.pdf'>Manual de declaración de la Renta en España 2023 <br><br>[Report in Spanish - Interview in Spanish]</a>",
+        "report_name": "<a href='https://huggingface.co/spaces/AIPeterWorld/Doc-To-Interview-Generator/blob/main/Example/ManualPatrimonio2023_es_es.pdf'>Manual de declaración de la Renta en España 2023 <br><br>[Report in Spanish - Interview in Spanish]</a>",
         "image": "Example/ManualPatrimonio2023_es_es.png",
         "interview": "Example/ManualPatrimonio2023_es_es.mp3",
         "report_pdf": "Example/ManualPatrimonio2023_es_es.pdf",
