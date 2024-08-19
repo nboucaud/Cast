@@ -274,7 +274,7 @@ with gr.Blocks(css=css) as demo:
     # Centrar el título y la descripción con CSS
     gr.Markdown("# Doc-To-Dialogue", elem_id="title")
     gr.Markdown(
-        "Turn your documents—whether market or research reports, user guides, manuals, or others—into an engaging interview or discussion where the most relevant insights are summarized. Just upload a PDF and the space will generate in interview for you in less than 1 minute.<br><br>If you have any questions or encounter any issues, don't hesitate to contact me directly [here](https://www.linkedin.com/in/psanchezal/).", 
+        "Turn your documents—whether market or research reports, user guides, manuals, or others—into an engaging interview or discussion where the most relevant insights are summarized. Just upload a PDF and the space will generate a interview for you in less than 1 minute.<br><br>If you have any questions or encounter any issues, don't hesitate to contact me directly [here](https://www.linkedin.com/in/psanchezal/).", 
         elem_id="description"
     )
     gr.Markdown("<hr>")  # Línea separadora en HTML
