@@ -153,7 +153,7 @@ def generate_audio(index, row, voices, output_dir):
     voice = voices[index % len(voices)]
 
     response = openai.audio.speech.create(
-        model="tts-1.hd",
+        model="tts-1-hd",
         voice=voice,
         response_format="mp3",
         speed=1,
