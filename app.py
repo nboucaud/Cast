@@ -36,7 +36,7 @@ GENERATION_CONFIG = {
     "temperature": 0.1,
     "top_p": 0.95,
     "top_k": 64,
-    "max_output_tokens": 15000,
+    "max_output_tokens": 10000,
     "response_mime_type": "application/json",
 }
 MODEL_NAME = "gemini-1.5-flash"
@@ -126,7 +126,8 @@ def generate_prompt(language):
         )
 
 async def generate_and_combine_audio_files(df_interview, output_dir, base_name):
-    voices = ["echo", "nova"]
+    #voices = ["echo", "nova"]
+    voices = ["fable", "nova"]
     combined = AudioSegment.empty()
 
     with ThreadPoolExecutor() as executor:
@@ -152,7 +153,7 @@ def generate_audio(index, row, voices, output_dir):
     voice = voices[index % len(voices)]
 
     response = openai.audio.speech.create(
-        model="tts-1",
+        model="tts-1.hd",
         voice=voice,
         response_format="mp3",
         speed=1,
