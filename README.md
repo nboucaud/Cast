@@ -9,8 +9,6 @@ app_file: app.py
 pinned: true
 license: mit
 short_description: Transform a report or document into an interview/discussion
-thumbnail: >-
-  https://cdn-uploads.huggingface.co/production/uploads/6485bbe375505dffa34d1aed/OdXvGT8yvrzl_kTbv7OBy.jpeg
 ---
 ## License
 
