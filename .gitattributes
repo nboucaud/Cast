@@ -44,3 +44,5 @@ RealEstateOutlookMS.pdf filter=lfs diff=lfs merge=lfs -text
 Example/h2ogpt.wav filter=lfs diff=lfs merge=lfs -text
 Example/InformeGobiernoSpain.wav filter=lfs diff=lfs merge=lfs -text
 Example/RealEstateOutlookMS.wav filter=lfs diff=lfs merge=lfs -text
+Example/Satndford_Agents.mp3 filter=lfs diff=lfs merge=lfs -text
+Example/Standford_Agents.pdf filter=lfs diff=lfs merge=lfs -text
